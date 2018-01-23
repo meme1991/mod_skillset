@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 /* style */
 $document->addStyleSheet(JUri::base(true).'/modules/'.$module->module.'/css/alternative.min.css');
 ?>
-<section class="skillset alt-layout wrapper">
+<section class="skillset alternative wrapper">
   <div class="container">
     <div class="row">
       <div class="col-6">

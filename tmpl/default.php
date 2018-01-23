@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 /* style */
 $document->addStyleSheet(JUri::base(true).'/modules/'.$module->module.'/css/default.min.css');
 ?>
-<section class="skillset" <?php if($bgImage) : ?> style="background-image: url(<?php echo $bgImage ?>)" <?php endif; ?>>
+<section class="skillset default" <?php if($bgImage) : ?> style="background-image: url(<?php echo $bgImage ?>)" <?php endif; ?>>
   <div class="container">
     <div class="row">
       <?php if($module->showtitle) : ?>

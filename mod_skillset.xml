@@ -60,7 +60,7 @@
             <field
               name="spskill-icon-1"
               type="text"
-              default="fa-address-book"
+              default="far fa-address-book fa-3x"
               label="MOD_SKILLSET_ICON"
               description="MOD_SKILLSET_ICON_DESC"
             />
@@ -85,7 +85,7 @@
             <field
               name="spskill-icon-2"
               type="text"
-              default="fa-address-book"
+              default="far fa-address-book fa-3x"
               label="MOD_SKILLSET_ICON"
               description="MOD_SKILLSET_ICON_DESC"
             />
@@ -110,7 +110,7 @@
             <field
               name="spskill-icon-3"
               type="text"
-              default="fa-address-book"
+              default="far fa-address-book fa-3x"
               label="MOD_SKILLSET_ICON"
               description="MOD_SKILLSET_ICON_DESC"
             />
@@ -135,7 +135,7 @@
             <field
               name="spskill-icon-4"
               type="text"
-              default="fa-address-book"
+              default="far fa-address-book fa-3x"
               label="MOD_SKILLSET_ICON"
               description="MOD_SKILLSET_ICON_DESC"
             />

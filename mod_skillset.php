@@ -18,12 +18,11 @@ $jquery       = $params->get('spskill-jquery');
 $bgImage      = $params->get('spskill-bg-image');
 $bgColor      = $params->get('spskill-bg-color');
 $description  = $params->get('spskill-description');
-
+$pattern      = $params->get('spskill-pattern');
 if($bgColor){
   $bgColor = ModSkillsetHelper::hexToRGB($bgColor);
   $document->addStyleDeclaration(' .skillset::before{background-color: rgba('.$bgColor.', 0.6);}'."\n");
 }
-$pattern      = $params->get('spskill-pattern');
 if($pattern){
   $document->addStyleDeclaration(' .skillset::after{background-image: url("modules/'.$module->module.'/images/pattern.png")}'."\n");
 }
@@ -34,9 +33,7 @@ if($jquery)
 $document->addScript(JUri::base(true).'/modules/'.$module->module.'/dist/jquery.counterup.min.js');
 $document->addScriptDeclaration("
   // skillset
-  jQuery(document).ready(function($){
-    $('.skillset .counting').counterUp({time: 1000});
-  });
+  jQuery(document).ready(function($){ $('.skillset .counting').counterUp({time: 1000}); });
 ");
 
 /* skill params */

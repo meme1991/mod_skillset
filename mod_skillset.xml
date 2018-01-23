@@ -167,6 +167,13 @@
     				/>
 
             <field
+    					name="spskill-skill-color"
+    					type="color"
+    					label="MOD_SKILLSET_SKILL"
+    					description="MOD_SKILLSET_SKILL_DESC"
+    				/>
+
+            <field
               name="spskill-pattern"
               type="radio"
               label="MOD_SKILLSET_PATTERN"

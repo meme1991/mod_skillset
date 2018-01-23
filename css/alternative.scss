@@ -8,7 +8,10 @@
 
 .skillset{
   .skill{
-    border-left: 10px #007bff solid;
+    // border-left: 10px #007bff solid;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: #007bff;
     .counting{
       font-size: 40px;
       font-weight: 700;

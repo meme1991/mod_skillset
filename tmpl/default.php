@@ -17,12 +17,12 @@ $document->addStyleSheet(JUri::base(true).'/modules/'.$module->module.'/css/defa
     <div class="row">
       <?php if($module->showtitle) : ?>
       <div class="title-section">
-        <h2><?php echo $module->title ?></h2>
+        <h2 style="color: <?= $skillColor ?>"><?php echo $module->title ?></h2>
       </div>
       <?php endif; ?>
 
       <?php foreach($skills as $item) : ?>
-        <div class="skill col-12 col-sm-12 col-md-6 col-lg-<?php echo $col ?>">
+        <div class="skill col-12 col-sm-12 col-md-6 col-lg-<?php echo $col ?>" style="color: <?= $skillColor ?>">
           <div class="icon"><i class="<?php echo $item['skillicon'] ?>"></i></div>
           <div class="counting"><?php echo $item['skillcount'] ?></div>
           <div class="description"><?php echo $item['skillname'] ?></div>

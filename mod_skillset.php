@@ -17,6 +17,7 @@ $bootstrap    = $params->get('spskill-bootstrap');
 $jquery       = $params->get('spskill-jquery');
 $bgImage      = $params->get('spskill-bg-image');
 $bgColor      = $params->get('spskill-bg-color');
+$skillColor   = $params->get('spskill-skill-color');
 $description  = $params->get('spskill-description');
 $pattern      = $params->get('spskill-pattern');
 if($bgColor){

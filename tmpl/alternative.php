@@ -25,7 +25,7 @@ $document->addStyleSheet(JUri::base(true).'/modules/'.$module->module.'/css/alte
       </div>
       <div class="col-6">
         <?php foreach($skills as $item) : ?>
-        <div class="skill pl-3 mb-3">
+        <div class="skill pl-3 mb-3" style="border-color: <?= $skillColor ?>">
           <small class="text-uppercase"><?php echo $item['skillname'] ?></small>
           <div class="counting"><?php echo $item['skillcount'] ?></div>
         </div>

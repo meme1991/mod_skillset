@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1.0" client="site" method="upgrade">
   <name>MOD_SKILLSET</name>
-	<author>SPEDI labs srl</author>
+	<author>SPEDI srl</author>
 	<creationDate>Novambre 2017</creationDate>
   <copyright>Copyright (C) SPEDI srl</copyright>
 	<license>GNU/GPL license: http://www.gnu.org/copyleft/gpl.html</license>
@@ -192,4 +192,7 @@
       </fields>
 
     </config>
+    <updateservers>
+  		<server type="extension" priority="1" name="Spedi Skillset">http://update.spedi.it/mod_skillset.xml</server>
+  	</updateservers>
 </extension>

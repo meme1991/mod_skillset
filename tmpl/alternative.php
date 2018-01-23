@@ -1,11 +1,11 @@
 <?php
-/**
- * @version    3.0.x
- * @package    Spedi Labs skillset
- * @author     SPEDI srl http://www.spedi.it
- * @copyright  Copyright (c) 1991 - 2016 Spedi srl. Tutti i diritti riservati.
- * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
- */
+# @Author: SPEDI srl
+# @Date:   23-01-2018
+# @Email:  sviluppo@spedi.it
+# @Last modified by:   SPEDI srl
+# @Last modified time: 23-01-2018
+# @License: GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+# @Copyright: Copyright (C) SPEDI srl
 
 defined('_JEXEC') or die;
 

@@ -24,7 +24,7 @@ if($bgColor){
   $document->addStyleDeclaration(' .skillset::before{background-color: rgba('.$bgColor.', 0.6);}'."\n");
 }
 if($pattern){
-  $document->addStyleDeclaration(' .skillset::after{background-image: url("modules/'.$module->module.'/images/pattern.png")}'."\n");
+  $document->addStyleDeclaration(' .skillset::after{background-image: url("'.JUri::base(true).'/modules/'.$module->module.'/images/pattern.png")}'."\n");
 }
 
 /* script */

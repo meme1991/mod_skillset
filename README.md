@@ -15,6 +15,9 @@ Skillset - Joomla Module (SPEDI srl)
  * Installa il .zip
  * Ora troverai il modulo in gestione moduli
 
+## Demo
+* [Demo qui](https://spedisrl.github.io/mod_skillset/)
+
 ## Licenza
 GNU/GPL license [http://www.gnu.org/copyleft/gpl.html](http://www.gnu.org/copyleft/gpl.html)
 

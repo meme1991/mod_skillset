@@ -3,7 +3,7 @@
 # @Date:   23-01-2018
 # @Email:  sviluppo@spedi.it
 # @Last modified by:   SPEDI srl
-# @Last modified time: 23-01-2018
+# @Last modified time: 25-01-2018
 # @License: GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
 # @Copyright: Copyright (C) SPEDI srl
 
@@ -32,10 +32,6 @@ if($pattern){
 if($jquery)
   JHtml::_('jquery.framework');
 $document->addScript(JUri::base(true).'/modules/'.$module->module.'/dist/jquery.counterup.min.js');
-$document->addScriptDeclaration("
-  // skillset
-  jQuery(document).ready(function($){ $('.skillset .counting').counterUp({time: 1000}); });
-");
 
 /* skill params */
 $k = 0;

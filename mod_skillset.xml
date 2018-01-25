@@ -11,15 +11,15 @@
 	<description>MOD_SKILLSET_DESC</description>
 
     <files>
-        <filename>mod_skillset.xml</filename>
-        <filename module="mod_skillset">mod_skillset.php</filename>
-        <filename>index.html</filename>
-        <filename>helper.php</filename>
-        <folder>tmpl</folder>
-        <folder>css</folder>
-        <folder>dist</folder>
-        <folder>images</folder>
-        <folder>language</folder>
+      <filename>mod_skillset.xml</filename>
+      <filename module="mod_skillset">mod_skillset.php</filename>
+      <filename>index.html</filename>
+      <filename>helper.php</filename>
+      <folder>tmpl</folder>
+      <folder>css</folder>
+      <folder>dist</folder>
+      <folder>images</folder>
+      <folder>language</folder>
     </files>
     <config>
       <fields name="params">
@@ -169,8 +169,8 @@
             <field
     					name="spskill-skill-color"
     					type="color"
-    					label="MOD_SKILLSET_SKILL"
-    					description="MOD_SKILLSET_SKILL_DESC"
+    					label="MOD_SKILLSET_SKILL_COLOR"
+    					description="MOD_SKILLSET_SKILL_COLOR_DESC"
     				/>
 
             <field
